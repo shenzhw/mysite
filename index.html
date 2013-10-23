@@ -1,59 +1,46 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Business Site Template by  Twitter Bootstrap Tutorials</title>
- 
+    <title>小站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 20px;
+        padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
- 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
- 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
   </head>
- 
+
   <body>
-  <!--Header Section, contains Logo, Site Title, Login links and Navbar -->
-    <div class="container-fluid">
-      <div class="row-fluid">
-          <div class="span12">
-            <!-- Logo and title-->
-            <div class="row-fluid">
-              <div class="span12">
- 
-                <div class="row-fluid">
-                  <div class="span1">
-                    <img src="img/logo 64x64.png" class="img-circle"> 
-                  </div>
-                  <div class="span9">
-                    <h1>Site Title<small>Subtext or Tag Line</small></h1> 
-                  </div>
-                  <div class="span1">
-                    <a href="#">Signup</a>
-                  </div>
-                  <div class="span1">
-                    <a href="#">Login</a> 
-                  </div>                    
-        </div>
-        </div>
-    </div>
- 
-    <!--Nav bar content-->
-        <div class="navbar navbar-inverse">
+
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -61,92 +48,58 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#"></a>
-          <div class="nav-collapse collapse">
+          <a class="brand" href="#">标题</a>
+          <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#product">Product</a></li>
-              <li><a href="#team">Team</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
- 
+              <li class="active"><a href="#">首页</a></li>
+              <li><a href="#about">关于</a></li>
+              <li><a href="#contact">联系</a></li>
             </ul>
-            <form class="navbar-form pull-right">
-              <input class="span8" type="text" placeholder="Type Search terms">
-              <button type="submit" class="btn">Search</button>
-            </form>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    </div>
- 
+
     <div class="container">
- 
+
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
- 
-        <div class="row-fluid">
-            <div class="span7">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>                    
-            </div>
-            <div class="span4">
-             <!-- Embed your code for Presentation or video -->
-                <iframe src="http://www.slideshare.net/slideshow/embed_code/15740077" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
-                <div style="margin-bottom:5px"> 
-                 </div>
-            </div>
-        </div>
+        <h1>你好！</h1>
+        <p></p>
+        <p><a class="btn btn-primary btn-large">了解更多 &raquo;</a></p>
       </div>
- 
-      <!-- Widget Area , Rows and Columns -->
+
+      <!-- Example row of columns -->
       <div class="row">
         <div class="span4">
-          <h2>Portfolio</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>标题</h2>
+           <p>
+       天下饥荒人相食，晋惠帝问臣：<br /><strong>“何不食肉糜?”</strong><br /><br />
+       史称--<span class='label label-important' style="font-size:15px;">盛世三问！</span>
+     </p>
+          <p><a class="btn" href="#">了解更多 &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2>Product</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>标题</h2>
+          <p>neirong</p>
+          <p><a class="btn" href="#">了解更多 &raquo;</a></p>
        </div>
         <div class="span4">
-          <h2>Team</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>标题</h2>
+          <p>内容</p>
+          <p><a class="btn" href="#">了解更多 &raquo;</a></p>
         </div>
       </div>
- 
-      <hr>
- 
+
       <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; Twitter 1900-2012</p>
       </footer>
- 
+
     </div> <!-- /container -->
- 
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
- 
+
   </body>
 </html>
